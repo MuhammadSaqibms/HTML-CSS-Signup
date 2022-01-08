@@ -1,0 +1,71 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: sans-serif;
+}
+.banner{
+    background-color: #ebd301;
+    margin: 10;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30;
+    padding-left: 30;
+}
+body{
+    background-image: url(helpline.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.LoginPage{
+    padding: 10% 0 0;
+    width: 360px;
+    margin: auto;
+}
+.Form{
+    position: relative;
+    z-index: 1;
+    background: rgba(7,40,195,0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.Form input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.Form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 19px;
+    cursor: pointer;
+}
+.Form button:hover,.Form button:active{
+    background: #43A047;
+}
+.Form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+.Form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+.Form .register-form{
+    display: none;
+}
